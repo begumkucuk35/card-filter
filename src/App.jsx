@@ -1,9 +1,16 @@
-import "./App.css";
+import "./assets/style.css";
+import Card from "./components/Card";
+import FilterTab from "./components/FilterTab";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+      <Navbar/>
+      <FilterTab/>
+      <Card/>
+      <Footer/>
     </>
   );
 }
